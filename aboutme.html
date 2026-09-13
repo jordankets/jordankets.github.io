@@ -8,17 +8,29 @@
         <!--anime-->
         <h2 style="color:lightblue; font-size: 80px;">likes anime</h2>
         <h2 style="color:lightblue; font-size: 50px;">watching now</h2>
-        <!-- img sources voor anime (opgeslagen in github)-->
-        <marquee behavior="scroll" direction="Right" scrollamount="6" style="background-color: black; padding: 10px; border-radius: 12px; white-space: nowrap; overflow: hidden;">
-         <img src="sources/IMG_0025.AVIF">
-         <img src="sources/IMG_0026.AVIF">
-         <img src="sources/IMG_0027.AVIF">
-         <img src="sources/IMG_0028.AVIF">
-         <img src="sources/IMG_0029.AVIF">
-         <img src="sources/IMG_0030.AVIF">
-         <img src="sources/IMG_0031.AVIF">
-         <img src="sources/IMG_0032.AVIF"> 
-        </marquee>
+        <!-- img sources voor anime eneen loop voor de images (opgeslagen in github)-->
+        <div style="overflow:hidden; white-space:nowrap;">
+         <style>@keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }</style>
+            <div style="display:inline-block; animation: scroll 20s linear infinite;">
+                <img src="sources/IMG_0025.AVIF" style="height:200px;">
+                <img src="sources/IMG_0026.AVIF" style="height:200px;">
+                <img src="sources/IMG_0027.AVIF" style="height:200px;">
+                <img src="sources/IMG_0028.AVIF" style="height:200px;">
+                <img src="sources/IMG_0029.AVIF" style="height:200px;">
+                <img src="sources/IMG_0030.AVIF" style="height:200px;">
+                <img src="sources/IMG_0031.AVIF" style="height:200px;">
+                <img src="sources/IMG_0032.AVIF" style="height:200px;">
+                <img src="sources/IMG_0025.AVIF" style="height:200px;">
+                <img src="sources/IMG_0026.AVIF" style="height:200px;">
+                <img src="sources/IMG_0027.AVIF" style="height:200px;">
+                <img src="sources/IMG_0028.AVIF" style="height:200px;">
+                <img src="sources/IMG_0029.AVIF" style="height:200px;">
+                <img src="sources/IMG_0030.AVIF" style="height:200px;">
+                <img src="sources/IMG_0031.AVIF" style="height:200px;">
+                <img src="sources/IMG_0032.AVIF" style="height:200px;">
+            </div>
+        </div>
+
 
         
         <!--leren-->
