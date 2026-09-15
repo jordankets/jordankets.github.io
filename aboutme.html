@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Me</title>
     </head>
-    <body style="background-color: black; font-family: 'Courier New', monospace; text-align: center; margin: 0; padding: 10px; -webkit-text-size-adjust: 100%;">
-        <h1 style="color:lightblue; font-size: max(8vw, 60px); margin-top: 20px;">about jordan</h1>
+    <body style="background-color: black; font-family: 'Courier New', monospace; text-align: center;">
+        <h1 style="color:lightblue; font-size: 120px;">about jordan</h1>
         <!--anime-->
-        <h2 style="color:lightblue; font-size: max(5vw, 40px);">likes anime</h2>
-        <h2 style="color:lightblue; font-size: max(4vw, 30px);">watching now</h2>
-        <!-- img sources voor anime en een loop voor de images (opgeslagen in github)-->
-        <div style="overflow:hidden; white-space:nowrap; width:100%;">
-            <style>@-webkit-keyframes scroll { 0% { -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -webkit-transform: translate3d(-50%,0,0); transform: translate3d(-50%,0,0); } } @keyframes scroll { 0% { -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -webkit-transform: translate3d(-50%,0,0); transform: translate3d(-50%,0,0); } }</style>
-            <div style="display:inline-block; white-space:nowrap; -webkit-animation: scroll 20s linear infinite; animation: scroll 20s linear infinite; will-change: transform; -webkit-backface-visibility: hidden; backface-visibility: hidden;">
-                <img src="sources/anime1.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime2.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime3.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime4.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime5.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime6.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime7.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime8.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime9.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
+        <h2 style="color:lightblue; font-size: 80px;">likes anime</h2>
+        <h2 style="color:lightblue; font-size: 50px;">watching now</h2>
+        <!-- img sources voor anime eneen loop voor de images (opgeslagen in github)-->
+        <div style="overflow:hidden; white-space:nowrap;">
+         <style>@keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }</style>
+            <div style="display:inline-block; animation: scroll 20s linear infinite;">
+                <img src="sources/anime1.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime2.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime3.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime4.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime5.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime6.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime7.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime8.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime9.AVIF" style="height:500px; border-radius: 8px;">
                 <!-- duplicate voor seamless loop-->
-                <img src="sources/anime1.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime2.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime3.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime4.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime5.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime6.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime7.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime8.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
-                <img src="sources/anime9.AVIF" style="height:min(500px, 45vh); border-radius:8px; margin-right:10px; display:inline-block; vertical-align:middle;">
+                <img src="sources/anime1.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime2.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime3.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime4.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime5.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime6.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime7.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime8.AVIF" style="height:500px; border-radius: 8px;">
+                <img src="sources/anime9.AVIF" style="height:500px; border-radius: 8px;">
             </div>
         </div>
 
         <!-- favorites section -->
         <div style="margin-top: 40px;">
-            <div style="font-size: max(5vw, 40px);">🏆</div>
-            <h2 style="color:lightblue; font-size: max(5vw, 40px); font-family: 'Great Vibes', cursive; margin: 10px 0;">Favorites of All Time</h2>
-            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; padding: 0 10px;">
-                <img src="sources/initiald.jpg" style="height: min(500px, 40vh); max-width: 100%; border-radius: 8px;">
-                <img src="sources/mfghost.jpg" style="height: min(500px, 40vh); max-width: 100%; border-radius: 8px;">
+            <div style="font-size: 60px;">🏆</div>
+            <h2 style="color:lightblue; font-size: 60px; font-family: 'Great Vibes', cursive; margin: 10px 0;">Favorites of All Time</h2>
+            <div style="display: flex; justify-content: center; gap: 20px;">
+                <img src="sources/initiald.jpg" style="height: 500px; border-radius: 8px;">
+                <img src="sources/mfghost.jpg" style="height: 500px; border-radius: 8px;">
             </div>
         </div>
+
         
         <!--leren-->
-        <h2 style="color:lightblue; font-size: max(3vw, 25px); margin-top: 40px;"> learning html, python en swift.<br>through W3schools</h2>
-        <a href="https://www.w3schools.com/" style="font-size: max(4vw, 30px); color: lightblue; font-family: 'Courier New', monospace; display: inline-block; margin-bottom: 20px;">Visit W3Schools!</a>
+        <h2  style="color:lightblue; font-size: 50px;"> learning html, python en swift.<br>through W3schools</h2>
+        <a href="https://www.w3schools.com/" style="font-size: 50px; color: lightblue; font-family: 'Courier New', monospace;">Visit W3Schools!</a>
 
-        <h2 style="color:lightblue; font-size: max(3vw, 25px);">or through img</h2>
+        <h2 style="color:lightblue; font-size: 40px;">or through img</h2>
         <!-- img sources voor codeer talen (opgeslagen in github)-->
-        <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-            <a href="https://www.w3schools.com/html/default.asp" style="text-decoration: none;"><img src="sources/html.png" style="width:min(150px, 25vw);"></a>
-            <a href="https://www.w3schools.com/python/default.asp" style="text-decoration: none;"><img src="sources/python.png" style="width:min(150px, 25vw);"></a>
-            <a href="https://www.w3schools.com/swift/default.asp" style="text-decoration: none;"><img src="sources/swift.png" style="width:min(150px, 25vw);"></a>
-        </div>
+        <a href="https://www.w3schools.com/html/default.asp" style="text-decoration: none;">
+          <img src="sources/html.png" style="width:150px;">
+        </a>
+        <a href="https://www.w3schools.com/python/default.asp" style="text-decoration: none;">
+          <img src="sources/python.png" style="width:150px;">
+        </a>
+        <a href="https://www.w3schools.com/swift/default.asp" style="text-decoration: none;">
+          <img src="sources/swift.png" style="width:150px;">
+        </a>
         <br>
-        <h2 style="color:lightblue; font-size: max(4vw, 40px); margin-top: 20px;">social media:</h2>
+        <h2 style="color:lightblue; font-size: 80px;">social media:</h2>
         <!-- img sources voor sociale media (opgeslagen in github)-->
-        <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; padding-bottom: 50px;">
-            <a href="https://youtube.com/@kimpie2?si=CkkRuIbdapKDvyG4" style="text-decoration: none;"><img src="sources/Youtube.png" style="width:min(150px, 25vw);"></a>
-            <a href="https://github.com/jordankets" style="text-decoration: none;"><img src="sources/githubwhite.png" style="width:min(150px, 25vw);"></a>
-            <a href="https://www.tiktok.com/@kozjo09?_r=1&_t=ZG-99epVqL4SJc" style="text-decoration: none;"><img src="sources/Tiktok.png" style="width:min(150px, 25vw);"></a>  
-        </div>
+        <a href="https://youtube.com/@kimpie2?si=CkkRuIbdapKDvyG4" style="text-decoration: none;">
+          <img src="sources/Youtube.png" style="width:150px;">
+        </a>
+        <a href="https://github.com/jordankets" style="text-decoration: none;">
+          <img src="sources/githubwhite.png" style="width:150px;">
+        </a>
+        <a href="https://www.tiktok.com/@kozjo09?_r=1&_t=ZG-99epVqL4SJc" style="text-decoration: none;">
+          <img src="sources/Tiktok.png" style="width:150px;">
+        </a>  
+
     </body>
 </html>
